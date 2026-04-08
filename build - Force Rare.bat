@@ -65,7 +65,7 @@ if /I "%1"=="deploy" (
     if not exist "%MEWGENICS_DIR%\mods" (
         mkdir "%MEWGENICS_DIR%\mods"
     )
-    copy /Y ExposeCatData.dll "%MEWGENICS_DIR%\mods\GuaranteedBossDrops.dll"
+    copy /Y GuaranteedBossDrops.dll "%MEWGENICS_DIR%\mods\GuaranteedBossDrops.dll"
     echo Deployed to %MEWGENICS_DIR%\mods\GuaranteedBossDrops.dll
 )
 
